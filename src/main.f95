@@ -86,7 +86,7 @@ program main
     end do
 
     ! Vertical coordinates of middles rows
-    do i=2,nb_elt_thick
+    do i=1,nb_elt_thick
         do j=1,nb_elt_length+1
             Y_node((nb_elt_length+1)*i+j) = (Y_node((nb_elt_length+1)*nb_elt_thick+j)+Y_node(j)) / nb_elt_thick * i
         end do

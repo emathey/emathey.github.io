@@ -1,0 +1,54 @@
+/*
+
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: green;
+}
+
+li, h2 {
+    color: blue;
+  }
+  
+*/
+
+html {
+    font-size: 14px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Alegreya Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 5px black;
+}
+  
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
